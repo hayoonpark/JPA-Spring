@@ -2,12 +2,22 @@ package hellojpa;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;
+import javax.persistence.Table;
 
 @Entity
+@Table(name = "MBR")
 public class Member {
     @Id
     private long id;
     private String name;
+
+    public Member (){
+
+    }
+    public Member(Long id, String name){
+        this.id = id;
+        this.name = name;
+    }
 
     public long getId() {
         return id;
