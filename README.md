@@ -1,2 +1,2 @@
 # JPA-Spring
-practice JPA &amp; SpringBoot
+practice JPA &amp; Spring
